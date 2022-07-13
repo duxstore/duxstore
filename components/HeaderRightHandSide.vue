@@ -1,9 +1,9 @@
 <template>
   <div class="bg-primary pt-6 pr-11">
     <div class="flex w-full justify-end">
-      <ButtonSecondary title="Get started" width="auto" />
+      <ButtonSecondary type="link" to="/get-started" title="Get started" width="auto" />
     </div>
-    <img src="~assets/images/shoe-variant-product-name.png" alt="">
+    <img src="~assets/images/shoe-variant-product-name.png" alt="" class="-right-11 sm:top-9 select-none relative w-full">
   </div>
 </template>
 
