@@ -6,10 +6,15 @@ module.exports = {
     extend: {
       colors: {
         primary: '#F4F7FB',
-        brand: '#4B0082'
+        brand: '#4B0082',
+        body: '#877D8D'
       },
       fontFamily: {
-        body: ['Inter sans-serif']
+        body: ['Inter'],
+        heading: ['Libre Baskerville']
+      },
+      lineHeight: {
+        block: '60px'
       }
     }
   },
