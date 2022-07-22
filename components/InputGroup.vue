@@ -1,7 +1,7 @@
 <template>
   <div>
     <BaseInput>
-      <span id="store-name" :class="['absolute font-body text-body select-none', {'text-base': !focus, 'scale-70 transform-gpu transition-transform': focus}]">{{ placeholder }}</span>
+      <span id="store-name" :class="['absolute font-body text-body select-none', {'text-base scale-100 transform': !focus, 'scale-70 transform transition-transform': focus}]">{{ placeholder }}</span>
       <input v-model="value" type="text" aria-describedby="store-name" class="outline-none leading-10 bg-transparent w-full" @focus="hasFocus" @blur="lostFocus">
       <component :is="buttonType" v-bind="buttonProps"></component>
     </BaseInput>
