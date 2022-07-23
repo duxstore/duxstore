@@ -4,14 +4,15 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'duxstore',
+    title: 'Duxstore - Smart Stores for Businesses',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Smart Stores for Businesses' },
+      { hid: 'keywords', name: 'keywords', content: 'Duxstore, Smart Store, Businesses, eCommerce, Nigerian business, Sell online' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
