@@ -58,5 +58,9 @@ export default {
       Inter: [100, 300, 400, 600, 700, 900],
       'Libre Baskerville': [100, 400, 500, 600, 700],
     }
+  },
+  
+  sitemap: {
+    hostname: 'https://duxstore.co'
   }
 }
