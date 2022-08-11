@@ -41,7 +41,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/google-gtag'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -59,8 +60,26 @@ export default {
       'Libre Baskerville': [100, 400, 500, 600, 700],
     }
   },
-  
+
   sitemap: {
     hostname: 'https://duxstore.co'
+  },
+  'google-gtag': {
+    id: 'G-4JN3M9XC6C',
+    config: {
+      anonymize_ip: true, // anonymize IP
+      // send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      // linker: {
+      //   domains: ['domain.com','domain.org']
+      // }
+    },
+    debug: true, // enable to track in dev mode
+    disableAutoPageTrack: true, // disable if you don't want to track each page route with router.afterEach(...).
+    // additionalAccounts: [{
+    //   id: 'AW-XXXX-XX', // required if you are adding additional accounts
+    //   config: {
+    //     send_page_view: false // optional configurations
+    //   }
+    // }]
   }
 }
