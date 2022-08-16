@@ -65,7 +65,7 @@ export default {
     hostname: 'https://duxstore.co'
   },
   'google-gtag': {
-    id: 'G-4JN3M9XC6C',
+    id: 'G-MLB16ZFSMB',
     config: {
       anonymize_ip: true, // anonymize IP
       // send_page_view: false, // might be necessary to avoid duplicated page track on page reload
